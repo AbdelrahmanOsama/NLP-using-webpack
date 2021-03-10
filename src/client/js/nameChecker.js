@@ -1,4 +1,4 @@
-function checkForName(inputText) {
+const checkForName = inputText => {
     console.log("::: Running checkForName :::", inputText);
     let names = [
         "Picard",
